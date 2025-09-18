@@ -1,0 +1,55 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:lightcyan;
+    color:#333;
+   
+
+}
+
+h2{
+    text-align: center;
+}
+
+.form-card{
+    width: 400px;
+    margin: 20 px auto;
+    padding: 16px;
+    background: white;
+    border: 1 px dotted #eee;
+    border-radius: 10px;
+
+}
+
+label{
+
+    display: block;
+    margin: 12px 0;
+}
+
+input,select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.actions{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.btn{
+    padding: 8px,16px;
+    background: #2563eb;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.btn.secondary{
+    background: gray;
+
+}
