@@ -1,0 +1,10 @@
+.nav{
+    background-color: darkblue;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+.nav:hover{
+    color: yellow;
+    background-color: lightskyblue;
+}

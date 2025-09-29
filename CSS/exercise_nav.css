@@ -1,0 +1,94 @@
+.nav_bar{
+    background-color: darkblue;
+
+    text-decoration: none; /* removes underline */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;/*equal space*/
+    align-items: center;
+
+}
+.nav_bar:hover{
+    color: yellow;
+    background-color: lightblue;
+
+}
+body {
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+  display: flex;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.highlight {
+  background-color: #e0f7fa;
+  border: 2px solid #00acc1;
+}
+/* .col-1{width: 8.33%;}
+.col-2{width: 16.66%}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 2fr);
+grid-template-rows: repeat(3, 2fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
