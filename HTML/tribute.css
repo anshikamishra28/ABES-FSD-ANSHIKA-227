@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(135deg,#fdf5dc,#f29d77);
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    font-family:monospace
+
+}
+
+p{
+    font-family:monospace;
+}
+h1{
+    font-family: cursive;
+    font-display: block;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}

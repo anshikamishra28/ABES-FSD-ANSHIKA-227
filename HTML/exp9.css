@@ -1,0 +1,36 @@
+        body {
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }    
+        .pattern-box {
+            background-image: url('bg1.jpg');
+            background-repeat: repeat; 
+            background-size: 100px 100px; 
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        a:link {
+            color: #0074D9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: #85144b;
+        }
+        a:hover {
+            color: #2ECC40;
+            text-decoration: underline;
+        }
+        a:active {
+            color: #FF4136;
+        }
+        p{
+            color: #ffffff;
+        }
+    

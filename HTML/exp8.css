@@ -1,0 +1,28 @@
+ body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            color: #ffffff;
+            background-image: url('bg1.jpg');
+            background-size: cover;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 40px 0 20px 0;
+        }
+.custom-box {
+            font-family: 'Courier New', monospace;
+            color: black;
+            background-image: url('bg2.jpg');
+            background-size: cover;
+            padding: 15px;
+            margin-top: 30px;
+            width: 300px;
+            border-radius: 8px;
+            font-size: 1em;
+        }

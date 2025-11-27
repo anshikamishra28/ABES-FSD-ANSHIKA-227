@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form class="form" action="/myaction.php" name="myform" onsubmit="return validateform()" method="post">
+         <div class="container" id="name">
+        <p><b>Name : </b><input type="text" name="fname" placeholder="Enter your name"><span class="formerror"></span></p>
+        </div>
+        <div id="password" class="container">
+        <p><b>Password : </b><input type="password" name="fpassword" class="invalid" placeholder="Enter your password"><span class="formerror"></span></p>
+        </div>
+        <div id="email" class="container">
+        <p><b>E-mail id : </b><input type="email" name="femail" placeholder="Enter your email"><span class="formerror"></span></p>
+        </div>
+        <div id="phone" class="container">
+        <p><b>Phone No.: </b><input type="tel" name="fphone" placeholder="Enter your phone number"><span class="formerror"></span></p>
+        </div>
+        <p><b>Sex : </b>
+            <input type="radio" class="radio"><label>Male</label>
+            <input type="radio" class="radio"><label>Female</label>
+            <input type="radio" class="radio"><label>Others</label>
+            </p>
+        <p><b>DOB : </b> <input type="date"></p>
+        <label><b>Languages Known :</b>
+             <input type="checkbox">English
+             <input type="checkbox">Hindi
+             <input type="checkbox">Tamil
+             <input type="checkbox">Telugu
+             <input type="checkbox">French
+             <input type="checkbox">German
+        </label>
+        <p><b>Address :</b> <input type="text" placeholder="Enter your current address"></p>
+        <input class="button" type="submit" value="Submit">
+   </form>     
+   <script src="script.js"></script>
+</body>
+</html>
